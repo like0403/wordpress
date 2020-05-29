@@ -78,7 +78,7 @@ VOLUME /var/www/html
 ENV WORDPRESS_VERSION 5.4.1
 #ENV WORDPRESS_SHA1 9800c231828eb5cd76ba0b8aa6c1a74dfca2daff
 
-COPY wordpress-v5.4.1-zh_CN.zip /root/
+COPY wordpress-v5.4.1-zh_CN.tar.gz /root/
 
 RUN set -ex; \
 #	curl -o wordpress.tar.gz -fSL "https://wordpress.org/wordpress-${WORDPRESS_VERSION}.tar.gz"; \
